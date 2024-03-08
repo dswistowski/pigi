@@ -1,0 +1,4 @@
+{
+  "sqlalchemy": {"owner":  "sqlalchemy", "name":  "sqlalchemy"},
+  "poetry": {"owner":  "python-poetry", "name":  "poetry"}
+}

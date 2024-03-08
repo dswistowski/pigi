@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="pypi:repository-version" content="1.1">
+    <title>pigi</title>
+</head>
+<body>
+    <h1>List of packages</h1>
+    <ul>
+        {% for repo in repos %}
+        <li><a href="/simple/{{ repo }}/">{{ repo }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

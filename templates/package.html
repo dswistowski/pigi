@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="pypi:repository-version" content="1.0">
+    <title>pigi for {{ github_org }}, package: {{ package_name }}</title>
+</head>
+<body>
+<h1>Links for {{ package_name }}</h1>
+<ul>
+    {% for asset in assets %}
+    <li><a href="/simple/{{ package_name }}/{{ asset.id }}/{{ asset.name }}">{{ asset.name }}</a></li>
+    {% endfor %}
+</ul>
+</body>
+</html>
